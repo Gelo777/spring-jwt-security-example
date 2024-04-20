@@ -1,0 +1,17 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://root:example@mongodb:27017/test
+    redis:
+      host: redis
+      port: 6379
+      password:
+      timeout: 3000
+
+server:
+  port: 8081
+
+jwt:
+  secret: secretkey
+  tokenExpiration: 1m
+  refreshTokenExpiration: 10m
